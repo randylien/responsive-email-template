@@ -1,0 +1,546 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>##Email_Title##</title>
+    <style type="text/css">
+    html {
+        font-size: 100%;
+        font-family: sans-serif;
+    }
+    body {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Arial;
+        text-align: center;
+        background-color: #eeeeee;
+    }
+    a:focus {
+        outline: thin dotted;
+    }
+    a:active, a:hover {
+        outline: 0;
+    }
+    h1 {
+        font-size: 2em;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    h2 {
+        color: #444444;
+        font-size: 23px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    h3 {
+        font-size: 1.17em;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    h4 {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    h5 {
+        font-size: 0.83em;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    h6 {
+        font-size: 0.67em;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+    }
+
+    hr {
+        height: 0;
+    }
+    img {
+        border: 0;
+        display: block;
+    }
+
+    p {
+        font-size: 13px;
+        margin-bottom: 13px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .paragraph {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+    /* Email CSS */
+
+    .mail-wrapper {
+        /* Set minimal width for your email content */
+        width: 600px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .mail-body {
+        background-color: #ffffff;
+        text-align: left;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 4px solid #cccccc;
+        width: 100%;
+    }
+
+    .content-width {
+        /* Really content area */
+        width: 540px;
+    }
+
+    .image-width {
+        width: 203px;
+    }
+
+    .mail-title {
+        color: #444444;
+    }
+
+    .mail-text {
+        color: #464646;
+    }
+
+    .description-width {
+        width: 325px;
+        text-align: left;
+    }
+
+    .branding-line {
+        font-size: 0; 
+        line-height: 0; 
+        border-top-style: solid;
+        border-top-color: red;
+        border-top-width: 3px;
+    }
+
+    .button-width {
+        width: 120px;
+        background-color: #1a8cc5;
+        border-bottom: 2px solid #dddddd;
+    }
+
+    .share-bar {
+        background-color: #f5f5f5;
+        font-size: 0; 
+        line-height: 0;
+    }
+
+    .space-placeholder {
+        font-size: 0; 
+        line-height: 0;
+    }
+
+    .text-align-center {
+        text-align: center;
+    }
+
+    .text-align-left {
+        text-align: left;
+    }
+
+    .footer {
+        font-size: 12px;
+        color: #464646;
+    }
+
+    @media only screen and (max-width: 640px) {
+            .mail-wrapper {width:440px!important; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;} 
+
+            .content-width {
+                width: 400px!important;
+                padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;
+            }
+
+            .image-width {
+                width: 100%;
+            }
+
+            .description-width {
+                width: 400px!important;
+            }
+
+            .description-width h2 {
+                margin-top: 10px;
+            }
+
+            .share-icons {
+                float: left;
+            }
+    }
+
+    @media only screen and (max-width: 479px) {
+            .mail-wrapper {width:280px!important; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;} 
+
+            .content-width {
+                width: 260px!important;
+                padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;
+            }
+
+            .image-width {
+                width: 100%;
+            }
+
+            .description-width {
+                width: 260px!important;
+            }
+
+            .description-width h2 {
+                margin-top: 10px;
+            }
+
+            .share-icons {
+                float: left;
+            }
+    }
+
+    </style>
+</head>
+
+<body bgcolor="#000000">
+    <table border="0" cellpadding="0" cellspacing="0" border="0" cellpadding="0" cellspacing="0" class="mail-wrapper" width="600" align="center">
+        <tr>
+            <td>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <p>Can't read this email? <a href="#">Open in your browser</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="0" cellpadding="10" cellspacing="0" class="mail-body" align="center">
+                    <tbody>
+                        <tr><td width="100%" class="space-placeholder" height="1">&nbsp;</td></tr>
+                        <tr>
+                            <td>
+                                <table class="content-width" align="center">
+                                    <tr>
+                                        <td align="center" width="100%">
+                                            <img src="http://placehold.it/260x30">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="space-placeholder" height="30">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-align-left">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-center">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="content-width" width="540"><tr><td>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="left" class="image-width">
+                                        <tr>
+                                            <td valign="top" width="190">
+                                                <img src="http://placehold.it/190x110">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="right" class="description-width" width="325">
+                                        <tr>
+                                            <td>
+                                                <h2>Welcome to #######</h2>
+                                                <div>
+                                                    <p class="mail-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    </p>
+                                                    <table border="0" cellpadding="0" cellspacing="0" height="34" align="left">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="button-width" align="center" height="30">
+                                                                    <a class="button-primary">
+                                                                        <font color="#ffffff">Watch now</font>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td></tr></table>
+                            </td>
+                        </tr>
+                        <tr><td class="space-placeholder" height="10">&nbsp;</td></tr>
+                        <tr>
+                            <td class="text-align-center">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="content-width" width="540"><tr><td>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="left" class="image-width">
+                                        <tr>
+                                            <td valign="top" width="190">
+                                                <img src="http://placehold.it/190x110">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="right" class="description-width" width="325">
+                                        <tr>
+                                            <td>
+                                                <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                                                <div>
+                                                    <p class="mail-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    </p>
+                                                    <table border="0" cellpadding="0" cellspacing="0" height="34" align="left">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="button-width" align="center" height="30">
+                                                                    <a class="button-primary">
+                                                                        <font color="#ffffff">Get it now</font>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td></tr></table>
+                            </td>
+                        </tr>
+                        <tr><td class="space-placeholder" height="10">&nbsp;</td></tr>
+                        <tr>
+                            <td class="text-align-center">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="content-width" width="540"><tr><td>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="left" class="image-width">
+                                        <tr>
+                                            <td valign="top" width="190">
+                                                <img src="http://placehold.it/190x110">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="right" class="description-width" width="325">
+                                        <tr>
+                                            <td>
+                                                <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                                                <div>
+                                                    <p class="mail-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    </p>
+                                                    <table border="0" cellpadding="0" cellspacing="0" height="34" align="left">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="button-width" align="center" height="30">
+                                                                    <a class="button-primary">
+                                                                        <font color="#ffffff">Get it now</font>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td></tr></table>
+                            </td>
+                        </tr>
+                        <tr><td class="space-placeholder" height="10">&nbsp;</td></tr>
+                        <tr>
+                            <td class="text-align-center">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="content-width" width="540"><tr><td>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="left" class="image-width">
+                                        <tr>
+                                            <td valign="top" width="190">
+                                                <img src="http://placehold.it/190x110">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="right" class="description-width" width="325">
+                                        <tr>
+                                            <td>
+                                                <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                                                <div>
+                                                    <p class="mail-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    </p>
+                                                    <table border="0" cellpadding="0" cellspacing="0" height="34" align="left">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="button-width" align="center" height="30">
+                                                                    <a class="button-primary">
+                                                                        <font color="#ffffff">Get it now</font>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td></tr></table>
+                            </td>
+                        </tr>
+                        <tr><td class="space-placeholder" height="10">&nbsp;</td></tr>
+                        <tr>
+                            <td>
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="content-width" width="540">
+                                    <tr><td class="text-align-left">
+                                        <h4 class="mail-title">
+                                            proident, sunt in culpa
+                                        </h4>
+                                        <p class="mail-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        </p>
+                                    </td></tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="share-bar">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="content-width" width="540">
+                                    <tbody>
+                                        <tr>
+                                            <td height="33">
+                                                <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                                    <tr><td height="33">
+                                                        <p class="paragraph mail-text">Stay in touch with ########</p>
+                                                    </td></tr>
+                                                </table>
+                                                <table class="share-icons" align="right">
+                                                    <tr>
+                                                        <td>
+                                                            <a class="share-icon" href="#">
+                                                                <img width="24" height="24" border="0" src="http://placehold.it/24x24">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a class="share-icon" href="#">
+                                                                <img width="24" height="24" border="0" src="http://placehold.it/24x24">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a class="share-icon" href="#">
+                                                                <img width="24" height="24" border="0" src="http://placehold.it/24x24">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a class="share-icon" href="#">
+                                                                <img width="24" height="24" border="0" src="http://placehold.it/24x24">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a class="share-icon" href="#">
+                                                                <img width="24" height="24" border="0" src="http://placehold.it/24x24">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a class="share-icon" href="#">
+                                                                <img width="24" height="24" border="0" src="http://placehold.it/24x24">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a class="share-icon" href="#">
+                                                                <img width="24" height="24" border="0" src="http://placehold.it/24x24">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="footer" align="center">
+                    <tbody>
+                        <tr>
+                            <td class="space-placeholder" height="18">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                                <p>
+                                    <img width="80" height="30" border="0" src="http://placehold.it/80x30">
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space-placeholder" height="18">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
