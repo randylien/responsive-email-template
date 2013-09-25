@@ -1,0 +1,26 @@
+{
+  "name": "responsive-email-template",
+  "version": "0.0.1",
+  "description": "Responsive Email Template sets",
+  "main": "html/index.html",
+  "dependencies": {
+    "nodemailer": "~0.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/randylien/responsive-email-template.git"
+  },
+  "keywords": [
+    "email",
+    "template"
+  ],
+  "author": "Randy Lien",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/randylien/responsive-email-template/issues"
+  }
+}
