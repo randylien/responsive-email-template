@@ -1,8 +1,7 @@
 # Responsive Email Layout
----
+
 
 ## Preface
----
 
 For people who need to create a RED(Responsive Email Design) for newsletter.
 
@@ -13,14 +12,31 @@ Of course, the biggest challenges are **Outlook**, **IE**, Blackberry, and **OLD
 
 
 ## Tools
----
+
+### Editor
 
 Undoubtedly, Dreamweaver is the best tool to create table layout.
+
 You could review your table layout easily.
+
+### Mail Testing
+
+#### Manual test
+
+If you have Node.js environment, you could use nodemailer to send out your email easily.
+
+Using `npm install` in this project will prepare relative packages for you.
+
+After installation, configure sendmail.js file with your gmail account.
+
+Then run `node sendmail.js` to see your result.
+
+#### Auto testing
+
+You should try [Litmus](http://www.litmus.com) or [EmailOnAcid](http://www.emailonacid.com)
 
 
 ## Doctype
----
 
 You could choose to use these two kinds of DOCTYPE in your document.
 
@@ -44,7 +60,6 @@ And then you chould test with EmailOnAcid to make sure everything goes well.
 
 
 ## Reset
----
 
 Mailchimp has provided a good reset styles set.
 
@@ -61,7 +76,6 @@ P.S. If your email can't display correctly on **Blackberry**, try to remove this
 
 
 ## Control your viewport
----
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -69,7 +83,6 @@ P.S. If your email can't display correctly on **Blackberry**, try to remove this
 
 
 ## Ignore old Gmail.app bugs on your Android
----
 
 If you encounter layout issues in old Gmail.app on Android devices.
 
@@ -79,7 +92,6 @@ Don't waste time on it.
 
 
 ## Two level table deep, at least!
----
 
 Prevent email client strip your body tag, you need to put your content in a table to wrapper it.
 
@@ -88,7 +100,6 @@ Use second table to control your content.
 
 
 ## Best practices for your TABLE
----
 
 Always set table's HTML attributes cellpadding and cellspacing to zero by default.
 
@@ -102,7 +113,6 @@ cellpadding is your good friend to separate elements.
  
 
 ## Set your width
----
 
 For better layout control, set your width attribute on HTML.
 
@@ -110,7 +120,6 @@ Control width in your media queries for mobile.
 
 
 ## Don't use space image
----
 
 If you would like to set gaps between elements, don't use Space images, try this way:
 
@@ -120,7 +129,6 @@ If you would like to set gaps between elements, don't use Space images, try this
 
 
 ## Set your comfortable width
----
 
 If your maximum width targets 600px, you would like to centre your content with 30px spaces in two sides.
 
@@ -130,7 +138,6 @@ Minor them (600-30*2) and set your width with 540px.
 
 
 ## Best practice for your img tag
----
 
 Due to browsers issue, img tag might have unpredictable spaces around itself.
 
@@ -142,7 +149,6 @@ You could set img tag's style to `display:block`.
 
 
 ## Taming your font/background color!
----
 
 Suprisingly, font tag could enforce your text color to anything you want!
 
@@ -156,7 +162,6 @@ HTML bgcolor attribute is your good friend to change background color.
 
 
 ## Progress enhancement
----
 
 You could use CSS3 for your Mobile Web.
 
@@ -165,7 +170,7 @@ Keep in mind and create things awesomed !
 
 
 ## Tools you might need
----
+
 [Mailchimp's Inline CSS service](http://beaker.mailchimp.com/inline-css)
 
 [Campaignmonitor's CSS compatible charts](http://www.campaignmonitor.com/css/)
@@ -176,7 +181,6 @@ Keep in mind and create things awesomed !
 
 
 ## Reference
----
 
 [CSS-Tricks - Complete guide table element](http://css-tricks.com/complete-guide-table-element/)
 
