@@ -11,7 +11,7 @@ var transport = nodemailer.createTransport("SMTP", {
 });
 
 // Your testing email path
-var email_path = 'html/text-wrap.html';
+var email_path = 'html/inline.html';
 
 console.log('Sendmail Configured');
 
@@ -24,10 +24,10 @@ var html_content = fs.readFileSync(email_path, {encoding: 'utf8'}, function(err,
 var message = {
 
     // sender info
-    from: 'Randy Lien <randylien@gmail>',
+    from: 'Tester <test@test.com>',
 
     // Comma separated list of recipients
-    to: '"Randy Lien" <randylien@gmail.com>',
+    to: '"Tester" <test@test.com>',
 
     // Subject of the message
     subject: 'Email Testing', //
