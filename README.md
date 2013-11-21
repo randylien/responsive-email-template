@@ -1,5 +1,6 @@
 # Responsive Email Layout
 
+-------
 
 ## Preface
 
@@ -78,7 +79,7 @@ P.S. If your email can't display correctly on **Blackberry**, try to remove this
 ## Control your viewport
 
 ```
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
 
@@ -87,7 +88,6 @@ P.S. If your email can't display correctly on **Blackberry**, try to remove this
 If you encounter layout issues in old Gmail.app on Android devices.
 
 Don't waste time on it.
-
 
 
 
@@ -110,7 +110,7 @@ Always set table's HTML attributes cellpadding and cellspacing to zero by defaul
 ```
 
 cellpadding is your good friend to separate elements.
- 
+
 
 ## Set your width
 
@@ -124,7 +124,7 @@ Control width in your media queries for mobile.
 If you would like to set gaps between elements, don't use Space images, try this way:
 
 ```
-<td style="font-size: 0; line-height: 0; border-top: 3px solid red;" height="10">&nbsp;</td> 
+<td style="font-size: 0; line-height: 0; border-top: 3px solid red;" height="10">&nbsp;</td>
 ```
 
 
@@ -177,7 +177,7 @@ Keep in mind and create things awesomed !
 
 [Zurb's Responsive Email Templates](http://zurb.com/playground/responsive-email-templates)
 
-
+[Zurb's Ink Email Template](http://zurb.com/ink/) AMAZING!
 
 
 ## Reference

@@ -24,10 +24,10 @@ var html_content = fs.readFileSync(email_path, {encoding: 'utf8'}, function(err,
 var message = {
 
     // sender info
-    from: 'Tester <test@test.com>',
+    from: 'YOUREMAIL <youremail@gmail.com>',
 
     // Comma separated list of recipients
-    to: '"Tester" <test@test.com>',
+    to: 'youremail@gmail.com',
 
     // Subject of the message
     subject: 'Email Testing', //
